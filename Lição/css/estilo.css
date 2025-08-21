@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Comic Relief', system-ui;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(29, 12, 61);
+    color:white
+}
+header{
+    margin-top: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 3rem;
+    color: #e4e022ce;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.logo:hover{
+    transform:scale(1.1)
+}
+nav a{
+    font-size: 1.8rem;
+    color:rgb(241, 241, 241);
+    margin-left: 4rem;
+    font-weight: 400;
+    transition: 0.3s ease;
+    border-bottom: 3px solid;
+}
+nav a:hover,
+nav a.active{
+    color: #e4e022ce;
+    border-bottom: 3px solid #e4e022ce;
+}
+
+section{
+min-height: 100vh;
+padding: 5rem 9% 5rem;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: rgb(29, 12, 61);
+}
+
+.home .home-content h1{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+SPAN{
+    color: blueviolet;
+}
+.home-content h3{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.home-content p{
+    font-size: 1.5rem;
+}
+.home-img{
+
+}
